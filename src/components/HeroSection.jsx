@@ -56,13 +56,13 @@ export default function HeroSection() {
           src="/images/atalispay-ui.png"
           alt="AtalisPay App UI"
           className="bottom-[-45px] relative w-[800px] md:w-[900px] drop-shadow-2xl rounded-3xl"
-          initial={{ y: 15 }}
-          animate={{ y: [15, -10, 15] }}
-          transition={{
-            duration: 6,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
+          // initial={{ y: 15 }}
+          // animate={{ y: [15, -10, 15] }}
+          // transition={{
+          //   duration: 6,
+          //   repeat: Infinity,
+          //   ease: "easeInOut",
+          // }}
         />
       </motion.div>
 
