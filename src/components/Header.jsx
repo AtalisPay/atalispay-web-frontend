@@ -80,6 +80,10 @@ export default function Header() {
               scrolled ? "text-[#00A86B]" : "text-white"
             }`}
           >
+            <a href="/app" className="hover:text-gray-300 transition-colors">
+              Home
+            </a>
+
             <a href="/about" className="hover:text-gray-300 transition-colors">
               About
             </a>

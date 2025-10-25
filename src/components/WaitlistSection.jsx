@@ -74,7 +74,7 @@ export default function WaitlistSection() {
           viewport={{ once: true }}
           className="mt-4 text-gray-600 text-base md:text-lg max-w-xl mx-auto"
         >
-          Be the first to experience Africa’s most seamless and secure digital
+          Be among the first 100 people to experience Africa’s most seamless and secure digital
           payment system.
         </motion.p>
 
