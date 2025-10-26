@@ -80,7 +80,7 @@ export default function Header() {
               scrolled ? "text-[#00A86B]" : "text-white"
             }`}
           >
-            <a href="/app" className="hover:text-gray-300 transition-colors">
+            <a href="/" className="hover:text-gray-300 transition-colors">
               Home
             </a>
 
@@ -88,7 +88,7 @@ export default function Header() {
               About
             </a>
             <a
-              href="#waitlist"
+              href="/#waitlist"
               className="hover:text-gray-300 transition-colors"
             >
               Waitlist
@@ -130,14 +130,21 @@ export default function Header() {
               className="absolute top-full left-0 w-full bg-[#00A86B] shadow-lg py-6 flex flex-col items-center space-y-4 text-white font-medium md:hidden rounded-b-3xl"
             >
               <a
-                href="#about"
+                href="/"
+                onClick={() => setMenuOpen(false)}
+                className="hover:text-gray-200"
+              >
+                Home
+              </a>
+              <a
+                href="/about"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-gray-200"
               >
                 About
               </a>
               <a
-                href="#waitlist"
+                href="/#waitlist"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-gray-200"
               >
